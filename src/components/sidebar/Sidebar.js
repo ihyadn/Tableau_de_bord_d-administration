@@ -1,5 +1,6 @@
 import { TrendingUp,Timeline,LineStyle, WorkOutline,AttachMoney,Report, Storefront, PermIdentity, MailOutline, DynamicFeed, ChatBubbleOutline } from '@material-ui/icons';
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './sidebar.css'
 
 export default function () {
@@ -9,10 +10,12 @@ export default function () {
           <div className="sidebarMenu">
             <h3 className="sidebarTitle">Dashboard</h3>
             <ul className="sidebarList">
-              <li className="sidebaeListItem">
-                <LineStyle className="sidebarIcon" />
-                Home
-              </li>
+              <Link to="/">
+                <li className="sidebaeListItem">
+                  <LineStyle className="sidebarIcon" />
+                  Home
+                </li>
+              </Link>
               <li className="sidebaeListItem">
                 <Timeline className="sidebarIcon" />
                 Analytics
@@ -27,8 +30,10 @@ export default function () {
             <h3 className="sidebarTitle">Quick Menu</h3>
             <ul className="sidebarList">
               <li className="sidebaeListItem">
-                <PermIdentity className="sidebarIcon" />
-                Users
+                <Link to="/users">
+                  <PermIdentity className="sidebarIcon" />
+                  Users
+                </Link>
               </li>
               <li className="sidebaeListItem">
                 <Storefront className="sidebarIcon" />

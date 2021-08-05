@@ -48,3 +48,96 @@ export const userData = [
     "Active User": 10000,
   },
 ];
+export const Userrows = [
+  {
+    id: 1,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 3,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 4,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 5,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 6,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 7,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 8,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 9,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 10,
+    username: "Jon Snow",
+    avatar:
+      "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    email: "WinterisComing@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+];
+
