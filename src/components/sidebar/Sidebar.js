@@ -10,7 +10,7 @@ export default function () {
           <div className="sidebarMenu">
             <h3 className="sidebarTitle">Dashboard</h3>
             <ul className="sidebarList">
-              <Link to="/">
+              <Link to="/" className="link">
                 <li className="sidebaeListItem">
                   <LineStyle className="sidebarIcon" />
                   Home
@@ -20,25 +20,29 @@ export default function () {
                 <Timeline className="sidebarIcon" />
                 Analytics
               </li>
-              <li className="sidebaeListItem">
-                <TrendingUp className="sidebarIcon" />
-                Sales
-              </li>
+              <Link to="/sales" className="link">
+                <li className="sidebaeListItem">
+                  <TrendingUp className="sidebarIcon" />
+                  Sales
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="sidebarMenu">
             <h3 className="sidebarTitle">Quick Menu</h3>
             <ul className="sidebarList">
-              <li className="sidebaeListItem">
-                <Link to="/users">
+              <Link to="/users" className="link">
+                <li className="sidebaeListItem">
                   <PermIdentity className="sidebarIcon" />
                   Users
-                </Link>
-              </li>
-              <li className="sidebaeListItem">
-                <Storefront className="sidebarIcon" />
-                Products
-              </li>
+                </li>
+              </Link>
+              <Link to="/products" className="link">
+                <li className="sidebaeListItem">
+                  <Storefront className="sidebarIcon" />
+                  Products
+                </li>
+              </Link>
               <li className="sidebaeListItem">
                 <AttachMoney className="sidebarIcon" />
                 Transactions

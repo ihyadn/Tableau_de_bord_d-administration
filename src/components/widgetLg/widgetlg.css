@@ -17,7 +17,12 @@
 }
 .widgetLgtable{
     width:100%;
+    height: 100%;
     border-spacing: 20px;
+    padding:10px 0px;
+}
+.widgetLgTr{
+    
 }
 .widgetLgDate,.widgetLgAmount{
     font-weight:300;

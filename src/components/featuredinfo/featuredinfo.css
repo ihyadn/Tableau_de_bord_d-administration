@@ -15,7 +15,7 @@
     font-size:20px;
 }
 .featuredMoney{
-    font-size:20px;
+    font-size:25px;
     font-weight: 700;
 }
 .featuredMoneyContainer{
@@ -29,7 +29,7 @@
     margin-left: 20px;
 }
 .featuredIcon{
-    font-size: 14px !important;
+    font-size: 18px !important;
     margin-left: 5px;
     color:green;
 }
