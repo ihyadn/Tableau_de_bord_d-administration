@@ -8,7 +8,7 @@ export default function WidgetSm() {
         <ul className="widgetSmList">
           <li className="widgetSmListItem">
             <img
-              src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt=""
               className="widgetSmImg"
             />
@@ -23,7 +23,7 @@ export default function WidgetSm() {
           </li>
           <li className="widgetSmListItem">
             <img
-              src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt=""
               className="widgetSmImg"
             />
@@ -38,7 +38,7 @@ export default function WidgetSm() {
           </li>
           <li className="widgetSmListItem">
             <img
-              src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt=""
               className="widgetSmImg"
             />
@@ -53,7 +53,7 @@ export default function WidgetSm() {
           </li>
           <li className="widgetSmListItem">
             <img
-              src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt=""
               className="widgetSmImg"
             />
@@ -68,7 +68,7 @@ export default function WidgetSm() {
           </li>
           <li className="widgetSmListItem">
             <img
-              src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt=""
               className="widgetSmImg"
             />

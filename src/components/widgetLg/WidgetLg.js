@@ -16,7 +16,7 @@ export default function WidgetLg() {
           </tr>
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
-              <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
+              <img src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
               <span className="widgetLgName">Susan Carol</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -28,7 +28,7 @@ export default function WidgetLg() {
           </tr>
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
-              <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
+              <img src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
               <span className="widgetLgName">Susan Carol</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -40,7 +40,7 @@ export default function WidgetLg() {
           </tr>
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
-              <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
+              <img src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
               <span className="widgetLgName">Susan Carol</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -52,7 +52,7 @@ export default function WidgetLg() {
           </tr>
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
-              <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
+              <img src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
               <span className="widgetLgName">Susan Carol</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -64,7 +64,7 @@ export default function WidgetLg() {
           </tr>
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
-              <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
+              <img src="https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="widgetLgImg" />
               <span className="widgetLgName">Susan Carol</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
