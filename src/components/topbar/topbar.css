@@ -6,6 +6,16 @@
     top:0;
     z-index:999;
 }
+.topLeft{
+    display: flex;
+    align-items:center;
+}
+.Menu{
+    cursor: pointer;
+    display: none !important;
+    color:darkblue;
+    margin-right: 5px;
+}
 .topbarWrapper{
     height: 100%;
     padding:0px 20px;
@@ -48,4 +58,30 @@
     height:40px;
     border-radius: 50%;
     cursor:pointer;
+}
+@media only screen and (max-width: 400px) {
+  .Menu{
+      display:flex !important;
+  }
+  .logo{
+    font-weight:bold;
+    font-size:20px;
+    color:darkblue;
+    cursor:pointer;
+}
+.topAvatar{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.topbarIconsContainer{
+    width:20px;
+    height:20px;
+    position:relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color:#555;
+}
+
 }

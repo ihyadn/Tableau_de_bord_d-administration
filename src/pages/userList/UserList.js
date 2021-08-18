@@ -5,6 +5,7 @@ import { DeleteOutline } from "@material-ui/icons";
 import { Userrows } from "../../DummyData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { ResponsiveContainer } from "recharts";
 
 export default function UserList() {
   const [data, setData] = useState(Userrows);
@@ -67,14 +68,16 @@ export default function UserList() {
   ];
 
   return (
-    <div className="userlist">
-      <DataGrid
-        rows={data}
-        columns={columns}
-        pageSize={8}
-        checkboxSelection
-        disableSelectionOnClick
-      />
-    </div>
+
+      <div className="userlist">
+        <DataGrid
+          rows={data}
+          columns={columns}
+          pageSize={8}
+          checkboxSelection
+          disableSelectionOnClick
+        />
+      </div>
+    
   );
 }

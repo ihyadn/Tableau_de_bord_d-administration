@@ -10,13 +10,15 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Product from './pages/product/Product'
 import NewProduct from './pages/newproduct/NewProduct'
 import Sales from './pages/sales/Sales'
+import {useState} from 'react'
 function App() {
+  const [sidebaropen,setsidebaropen]=useState(false)
   return (
     <Router>
       <div className="App">
-        <Topbar />
+        <Topbar sidebaropen={sidebaropen} setsidebaropen={setsidebaropen} />
         <div className="Container">
-          <Sidebar />
+          <Sidebar sidebaropen={sidebaropen} setsidebaropen={setsidebaropen}/>
           <Switch>
             <Route exact path="/">
               <Home />

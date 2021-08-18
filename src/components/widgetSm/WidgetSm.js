@@ -1,6 +1,7 @@
 import React from 'react'
 import './widgetsm.css'
 import {Visibility} from '@material-ui/icons'
+import {Link} from 'react-router-dom'
 export default function WidgetSm() {
     return (
       <div className="widgetSm">
@@ -16,10 +17,12 @@ export default function WidgetSm() {
               <span className="widgetSmUsername">Anna Keller</span>
               <span className="widgetSmUserTitle"> Software Engineer</span>
             </div>
+            <Link to="/users/20">
             <button className="widgetSmButton">
               <Visibility className="widgetSmIcon" />
               Display
             </button>
+            </Link>
           </li>
           <li className="widgetSmListItem">
             <img
@@ -31,10 +34,12 @@ export default function WidgetSm() {
               <span className="widgetSmUsername">Anna Keller</span>
               <span className="widgetSmUserTitle"> Software Engineer</span>
             </div>
+            <Link to="/users/20">
             <button className="widgetSmButton">
               <Visibility className="widgetSmIcon" />
               Display
             </button>
+            </Link>
           </li>
           <li className="widgetSmListItem">
             <img
@@ -46,10 +51,12 @@ export default function WidgetSm() {
               <span className="widgetSmUsername">Anna Keller</span>
               <span className="widgetSmUserTitle"> Software Engineer</span>
             </div>
+            <Link to="/users/20">
             <button className="widgetSmButton">
               <Visibility className="widgetSmIcon" />
               Display
             </button>
+            </Link>
           </li>
           <li className="widgetSmListItem">
             <img
@@ -61,10 +68,12 @@ export default function WidgetSm() {
               <span className="widgetSmUsername">Anna Keller</span>
               <span className="widgetSmUserTitle"> Software Engineer</span>
             </div>
+            <Link to="/users/20">
             <button className="widgetSmButton">
               <Visibility className="widgetSmIcon" />
               Display
             </button>
+            </Link>
           </li>
           <li className="widgetSmListItem">
             <img
@@ -76,10 +85,12 @@ export default function WidgetSm() {
               <span className="widgetSmUsername">Anna Keller</span>
               <span className="widgetSmUserTitle"> Software Engineer</span>
             </div>
+            <Link to="/users/20">
             <button className="widgetSmButton">
               <Visibility className="widgetSmIcon" />
               Display
             </button>
+            </Link>
           </li>
         </ul>
       </div>

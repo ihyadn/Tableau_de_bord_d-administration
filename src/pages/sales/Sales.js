@@ -1,6 +1,7 @@
 import React from 'react'
 import Chart from '../../components/chart/Chart'
 import { DataGrid } from "@material-ui/data-grid";
+import './sales.css'
 export default function Sales() {
     const columns = [
     { field: "order date", headerName: "Order Date", width: 90 },
@@ -34,16 +35,16 @@ export default function Sales() {
         <h3 style={{ fontWeight: "600" }} className="m-3">
           Sales Overview
         </h3>
-        <div className="d-flex justify-content-between mx-3 mt-3 ">
-          <div className="p-3 d-flex shadow-sm flex-grow-1 flex-column align-items-center">
+        <div className="d-flex top justify-content-between mx-3 mt-3 ">
+          <div className="p-3 topElement d-flex shadow-sm flex-grow-1 flex-column align-items-center">
             <span style={{ fontWeight: "900", fontSize: "40px" }}>0</span>
             <span style={{ fontWeight: "200" }}>Orders Made</span>
           </div>
-          <div className="p-3 d-flex shadow-sm flex-grow-1 flex-column align-items-center">
+          <div className="p-3 d-flex topElement shadow-sm flex-grow-1 flex-column align-items-center">
             <span style={{ fontWeight: "900", fontSize: "40px" }}>0</span>
             <span style={{ fontWeight: "200" }}>Units Solde</span>
           </div>
-          <div className="p-3 d-flex shadow-sm flex-grow-1 flex-column align-items-center">
+          <div className="p-3 d-flex topElement shadow-sm flex-grow-1 flex-column align-items-center">
             <span style={{ fontWeight: "900", fontSize: "40px" }}>$0,00</span>
             <span style={{ fontWeight: "200" }}>Total Profit</span>
           </div>

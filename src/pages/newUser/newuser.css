@@ -1,60 +1,66 @@
-.newuser{
-    flex:8;
-    margin-top: 30px;
+.newuser {
+  flex: 8;
+  margin-top: 30px;
 }
-.newUserForm{
-    display:flex;
-    flex-wrap: wrap;
-    margin:20px 20px;
-    padding:10px 10px;
-    justify-content: center;
-    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75) ;
-
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  justify-content: center;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 }
-.newUserItem{
-    width:400px;
-    display: flex;
-    flex-direction:column;
-    margin-top: 10px;
-    margin-right: 20px;
-    
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
 }
-.newUserItem>label{
-    margin-bottom: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    color:grey;
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: grey;
 }
-.newUserItem>input{
-    height: 40px;
-    padding:10px;
-    border:1px solid grey;
-    border-radius: 5px;
+.newUserItem > input {
+  height: 40px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
-.newUserSelect{
-    height: 40px;
-    border-radius: 5px;
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
 }
-.newUserButton{
-    width: 200px;
-    border:none;
-    background-color:blue;
-    color:white;
-    padding:7px 10px;
-    font-weight: 600;
-    border-radius: 10px;
-    cursor:pointer;
-    margin-top: 30px;
+.newUserButton {
+  width: 200px;
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
 }
-.newUserBottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width:100%;
+.newUserBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.newUserTitle{
-   font-size:32px;
-   font-weight: 600;
-   text-align: center;
+.newUserTitle {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .newUserForm {
+    margin-bottom: 20px;
+  }
+  .newUserItem{
+      width:300px;
+  }
 }

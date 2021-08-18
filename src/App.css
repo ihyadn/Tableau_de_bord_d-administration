@@ -1,4 +1,9 @@
-.Container{
-    display:flex;
-    margin-top: 10px;
+.Container {
+  display: flex;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 400px) {
+  .Container {
+    height: 90vh;
+  }
 }
