@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Demo
+https://react-admin-dashboard-89b9d.web.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
