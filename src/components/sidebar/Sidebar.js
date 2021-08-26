@@ -10,28 +10,27 @@ import {
   MailOutline,
   DynamicFeed,
   ChatBubbleOutline,
+  Receipt,
 } from "@material-ui/icons";
 import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import "./sidebar.css";
 
-export default function ({ sidebaropen,setsidebaropen }) {
+export default function ({ sidebaropen, setsidebaropen }) {
   const sidebarRef = useRef();
- 
-  window.onresize=()=>{
-    if (window.innerWidth>400)
-    {
-      console.log("sup")
-      setsidebaropen(true)
+
+  window.onresize = () => {
+    if (window.innerWidth > 400) {
+      console.log("sup");
+      setsidebaropen(true);
     }
-  }
+  };
   useEffect(() => {
     if (sidebaropen) {
       sidebarRef.current.style.display = "block";
       return;
     }
-    if (window.innerWidth<=400)
-    {
+    if (window.innerWidth <= 400) {
       sidebarRef.current.style.display = "none";
     }
   }, [sidebaropen]);
@@ -56,6 +55,12 @@ export default function ({ sidebaropen,setsidebaropen }) {
               <li className="sidebaeListItem">
                 <TrendingUp className="sidebarIcon" />
                 Sales
+              </li>
+            </Link>
+            <Link to="/orders" className="link">
+              <li className="sidebaeListItem">
+                <Receipt className="sidebarIcon" />
+                Orders
               </li>
             </Link>
           </ul>

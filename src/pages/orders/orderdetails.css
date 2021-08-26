@@ -1,0 +1,166 @@
+.order {
+  flex: 8;
+  padding: 20px;
+}
+.orderTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.orderAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: rgb(76, 238, 12);
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.orderContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.orderShow {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex: 3;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.orderUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-left: 20px;
+}
+.orderShowTop {
+  display: flex;
+}
+.orderShowImg {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.orderUpdateRight>select{
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.orderUpdateRight > label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: grey;
+}
+.orderShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.orderShowordername {
+  font-weight: 600;
+}
+.orderShoworderTitle {
+  font-weight: 300;
+}
+.orderShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(190, 180, 180);
+}
+.orderShowBottom {
+  margin-top: 20px;
+}
+.orderShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  color: #444;
+}
+.orderShowIcon {
+  font-size: 16px !important;
+  margin-right: 10px;
+}
+.productimg {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.orderUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.orderUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+.orderUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.orderUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.orderUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid grey;
+}
+.orderUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.orderUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.orderUpdateIcon {
+  cursor: pointer;
+}
+.orderUpdateButton {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+@media only screen and (max-width: 400px) {
+  .orderContainer {
+    flex-direction: column;
+  }
+  .orderTitleContainer {
+    justify-content: space-around;
+  }
+  .orderShow {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  .orderUpdate {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .orderUpdateForm {
+    flex-direction: column;
+  }
+  .orderUpdateRight {
+    margin-top: 20px;
+  }
+  .productimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+}

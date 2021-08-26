@@ -11,6 +11,8 @@ import Product from './pages/product/Product'
 import NewProduct from './pages/newproduct/NewProduct'
 import Sales from './pages/sales/Sales'
 import {useState} from 'react'
+import OrdersList from './pages/orders/OrdersList'
+import OrderDetails from './pages/orders/OrderDetails'
 function App() {
   const [sidebaropen,setsidebaropen]=useState(false)
   return (
@@ -18,7 +20,7 @@ function App() {
       <div className="App">
         <Topbar sidebaropen={sidebaropen} setsidebaropen={setsidebaropen} />
         <div className="Container">
-          <Sidebar sidebaropen={sidebaropen} setsidebaropen={setsidebaropen}/>
+          <Sidebar sidebaropen={sidebaropen} setsidebaropen={setsidebaropen} />
           <Switch>
             <Route exact path="/">
               <Home />
@@ -43,6 +45,12 @@ function App() {
             </Route>
             <Route path="/sales">
               <Sales />
+            </Route>
+            <Route exact path="/orders">
+              <OrdersList />
+            </Route>
+            <Route path="/orders/:id">
+              <OrderDetails />
             </Route>
           </Switch>
         </div>

@@ -212,6 +212,20 @@ export const Productrows = [
     price: "$120.00",
   },
 ];
+export const SalesData = [
+  {
+    name: "Jan",
+    Sales: 3000,
+  },
+  {
+    name: "Feb",
+    Sales: 2000,
+  },
+  {
+    name: "Mar",
+    Sales: 1800,
+  },
+];
 export const productData = [
   {
     name: "Jan",
@@ -224,5 +238,35 @@ export const productData = [
   {
     name: "Mar",
     Sales: 1800,
+  },
+];
+
+export const ordersData = [
+  {
+    id: 1,
+    orderdate: "12/5/2021",
+    username: "ihyadn123",
+    avatar:
+      "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    Paymentstatus: "Accepted",
+    Fulfillmentstatus: "Delivered",
+  },
+  {
+    id: 2,
+    orderdate: "12/5/2021",
+    username: "ihyadn123",
+    avatar:
+      "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    Paymentstatus: "Accepted",
+    Fulfillmentstatus: "Delivered",
+  },
+  {
+    id: 3,
+    orderdate: "12/5/2021",
+    username: "ihyadn123",
+    avatar:
+      "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    Paymentstatus: "Accepted",
+    Fulfillmentstatus: "Delivered",
   },
 ];
