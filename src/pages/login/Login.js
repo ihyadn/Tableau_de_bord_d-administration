@@ -10,6 +10,9 @@ export default function Login({ setid }) {
   const passRef = useRef();
 
   const login = () => {
+    //allow everyone to see web site content
+    setid(1)
+    //allow only admins
     Axios.post("http://localhost:3001/login", {
       email: Email,
       password: password,
@@ -43,6 +46,7 @@ export default function Login({ setid }) {
             <input
               className="form-control input"
               type="email"
+              required
               ref={emailRef}
               onChange={() => {
                 setEmail(emailRef.current.value);
@@ -56,6 +60,7 @@ export default function Login({ setid }) {
             <input
               className="form-control input"
               ref={passRef}
+              required
               type="password"
               onChange={() => {
                 setPassword(() => passRef.current.value);
